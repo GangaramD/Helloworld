@@ -1,2 +1,4 @@
 #!/bin/bash
-tar -cvf Helloworld.tar $1/Test
+filepath = C:\xampp\tomcat\webapps
+tar -xf Helloworld.tar -C $filepath/Helloworld
+
